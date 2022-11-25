@@ -1,12 +1,14 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
+import { AppRouter } from './router'
 
 export const MainApp = () => {
   return (
 
-    <h1 className='text-red-500'>Decoraciones Chapis</h1>
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
 
   )
 
 }
-
-
