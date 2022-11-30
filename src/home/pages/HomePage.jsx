@@ -1,31 +1,15 @@
 import React from 'react'
-import AwesomeSlider from 'react-awesome-slider';
+import { ImageSlider } from '../../ui/slider/ImageSlider'
+import slides from '../../ui/slider/slides'
 
 
 export const HomePage = () => {
 
   return (
 
-    <>
-
-      <img src="./pinata_batman.png" alt="" />
-
-      <AwesomeSlider
-        media={[
-          {
-            source: '/path/to/image-0.png',
-          },
-          {
-            source: '/path/to/image-1.png',
-          },
-          {
-            source: '/path/to/image-2.png',
-          },
-        ]}
-      />
-      
-
-    </>
+      <div className='w-full h-96 mt-2' >
+        <ImageSlider slides={slides} />
+      </div>
 
   )
 }
