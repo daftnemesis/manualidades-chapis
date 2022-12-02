@@ -1,22 +1,22 @@
 const slides = [
   {
-    url: "http://localhost:5173/pinata_batman.png",
+    url: 'https://i.ibb.co/WWgXYvH/pinata-batman.png',
     tittle: 'Piñata Batman'
   },
   {
-    url: "http://localhost:5173/pinata_bts.png",
+    url: 'https://i.ibb.co/vdqkCnF/pinata-bts.png',
     tittle: 'Piñata BTS'
   },
   {
-    url: "http://localhost:5173/pinata_estrella.png",
+    url: 'https://i.ibb.co/hKD3kNG/pinata-estrella.png',
     tittle: 'Piñata Estrella'
   },
   {
-    url: "http://localhost:5173/pinata_nombre.png",
+    url: 'https://i.ibb.co/SQ0Gq5Z/pinata-nombre.png',
     tittle: 'Piñata Nombre'
   },
   {
-    url: "http://localhost:5173/pinata_numero2.png",
+    url: 'https://i.ibb.co/5kWfWFC/pinata-numero2.png',
     tittle: 'Piñata Batman'
   },
 

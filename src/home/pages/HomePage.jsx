@@ -7,8 +7,11 @@ export const HomePage = () => {
 
   return (
 
-      <div className='w-full h-96 mt-2' >
-        <ImageSlider slides={slides} />
+      <div>
+        <div className='w-full h-96 mt-2 mb-16'>
+          <ImageSlider slides={slides} />
+        </div>
+        <h1 className='text-3xl text-center '>Bienvenidos a Manualidades Chapis</h1>
       </div>
 
   )

@@ -40,7 +40,7 @@ export const NavBar = () => {
       </nav>
 
       <div className="">
-        <ul className={`lg:hidden flex justify-around bg-white  w-full ${toggle ? 'hidden ' : 'fixed'}`}>
+        <ul className={`lg:hidden z-10 flex justify-around bg-white items-center h-10 w-full ${toggle ? 'hidden ' : 'fixed'}`}>
           <li>Inicio</li>
           <li>Acerca de</li>
           <li>Contacto</li>
